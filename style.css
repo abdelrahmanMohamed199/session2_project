@@ -149,7 +149,8 @@ body {
     color: var(--paragraphColor, grey);    
 }
 .blog-social {
-    margin-left: 20px;
+    display: flex;
+    gap: 10px;
     margin-top: 15px;
 }
 .blog-social div {
@@ -162,12 +163,7 @@ body {
     background-color: grey;
 }
 .blog-social i {
-    background-color: #80808069;
-    padding: 14px 10px 10px 10px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
+    font-size: 20px; 
 }
 .blog-social div:hover {
     background-color: var(--BlackColor, black);
@@ -193,7 +189,7 @@ body {
     .blog-social {
         text-align: center;
     }
-    .blog-social i {
+    .blog-social div {
         margin-left: 5px;
     }
 }
@@ -399,6 +395,7 @@ body {
 }
 
 /* end footer  */
+
 
 
 
