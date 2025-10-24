@@ -20,7 +20,7 @@ body {
 }
 /* start home */
 .home {
-    background-image: url(../images/girl.jpg);
+    background-image: url(girl.jpg);
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
@@ -388,4 +388,5 @@ body {
         font-size: 15px;
     }
 }
+
 /* end footer  */
