@@ -160,7 +160,7 @@ body {
     height: 40px;
     margin-left: 10px;
 }
-.blog-social i:hover {
+.blog-social div:hover {
     background-color: var(--BlackColor, black);
     color: var(--whiteColor, white);
     transform: scale(1.1);
@@ -390,4 +390,5 @@ body {
 }
 
 /* end footer  */
+
 
