@@ -370,7 +370,7 @@ body {
 .footer .footer-icons i {
     font-size: 25px;
 }
-.footer-icons i:hover {
+.footer-icons div:hover {
     background-color: var(--BlackColor, black);
     color: var(--whiteColor, white);
     cursor: pointer;
@@ -390,3 +390,4 @@ body {
 }
 
 /* end footer  */
+
